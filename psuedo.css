@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+    
+}
+body{
+    font-family: "Nunito" sans-serif;
+    min-height: 100vh;
+    background-color: #20202A;
+    
+}
+
+.container{
+    display: flex;
+    padding: 2em;
+    gap: 3em;
+}
+.image{
+    background-color:#24242E;
+    border: none;
+    min-height: 13em;
+    min-width: 10em;
+  
+}
+.image img{
+    border-radius: 70%;
+    margin-left:5rem;
+    margin-top: 2px;
+}
+h5{
+    margin-left: 5rem;
+    margin-top:10px;
+}
+.container1{
+   min-width: 15em;
+}
+.gold{
+    color: #ffc107;
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+    min-height: 20em;
+    gap: 4em;
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url(../images/keys.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.exp{
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.profile img{
+    margin-left: 10rem;
+    margin-top: 5rem
+}
+.lorems{
+    display: flex;
+    gap: 2rem;
+    
+}
+.lorem{
+    background-color: #2d2d39;
+}
+button{
+    background-color: #ffc107;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+}
